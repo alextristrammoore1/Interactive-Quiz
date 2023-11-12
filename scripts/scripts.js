@@ -277,6 +277,8 @@ let zipCode = "SLBD";
 let outString = zipCode.match(/\d+/);
 console.log(outString);
 
+//this is the end of the JavaScript file
+
 
 
 

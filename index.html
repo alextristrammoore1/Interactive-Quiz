@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Your Hotel Room</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<link href="css/site.css" type="text/css" rel="stylesheet"/>
+<body>
+    <h1>
+        <img src="images/HomePageIcon.png" alt="Hotel Image" class="large" />
+    </h1>
+    <h1>
+        <span id="greeting"></span>
+        <span>Today is</span>
+        <span id="weekday"></span>
+        <span id="daynumber"></span>
+        <span id="month"></span>
+    </h1>
+    <a href="https://hotels.co.uk" id="Test Link">Hotels Link</a>
+    
+    <p>Please enter some details</p>
+    <form action="/somepath" class="form" method="post" id="user-details">
+        <input name="user-name" class="form input" placeholder="Enter Full Name">
+        <span id="user-name tip" class="tip"></span>
+        <span id="user-name error" class="error"></span>
+        <br>
+        <input name="address 1" placeholder="Enter First Address Line">
+        <span id="address 1 tip" class="tip"></span>
+        <span id="address 1 error" class="error"></span>
+        <br>
+        <input name="address 2" placeholder="Enter Town">
+        <span id="address 2 tip" class="tip"></span>
+        <span id="address 2 error" class="error"></span>
+        <br>
+        <input name="postcode" placeholder="Enter post code">
+        <span id="postcode tip" class="tip"></span>
+        <span id="postcode error" class="error"></span>
+        <br>
+        <button type="submit">Submit</button>
+        <br>  
+    </form>
+    <br>
+    <table>
+        <tr>
+            <th scope="col" class="left">Hotel</th>
+            <th scope="col">Gallery</th>
+            <th scope="col">Star Rating</th>
+            <th scope="col">Number of Rooms</th>
+            <th scope="col">Rooms Available</th>
+        </tr>
+        <tr>
+            <td scope ="row" id="hotel1name" class="left" placeholder="hotel name"></td>
+            <td scope ="row"><img src="images/Hotel1.png" class="small"/></td>
+            <td scope ="row" id="hotel1stars" placeholder="1-5"></td>
+            <td scope ="row" id="hotel1totalrooms" placeholder="0-100"></td>
+            <td scope ="row" id="hotel1availablerooms" placeholder="0-100"></td>
+        </tr>
+        <tr class="even">
+            <td scope ="row" id="hotel2name" class="left" placeholder="hotel name"></td>
+            <td scope ="row"><img src="images/Hotel2.png" class="small"/></td>
+            <td scope ="row" id="hotel2stars" placeholder="1-5"></td>
+            <td scope ="row" id="hotel2totalrooms" placeholder="0-100"></td>
+            <td scope ="row" id="hotel2availablerooms" placeholder="0-100"></td>
+        </tr>
+        <tr>
+            <td scope ="row" id="hotel3name" class="left" placeholder="hotel name"></td>
+            <td scope ="row"><img src="images/Hotel3.png" class="small"/></td>
+            <td scope ="row" id="hotel3stars" placeholder="1-5"></td>
+            <td scope ="row" id="hotel3totalrooms" placeholder="0-100"></td>
+            <td scope ="row" id="hotel3availablerooms" placeholder="0-100"></td>
+        </tr>
+    </table>
+    <br>
+    <p1>Please provide any additional information (Max 150 characters).</p1>
+    <br>
+    <input type="text" class="textbox" id="providefeedback"></input>
+    <br>
+    <span><i>You have </i></span><span id="CharCount" placeholder="XX">150</span><span><i> characters remaining</i></span>
+    <br>
+    <span id="CharCount Error" class="error"></span>
+    <a href="tools.html" id="Tools Link">Conversion Tools</a>
+    <a href="quiz.html" id="Quiz Link">Quiz of the Week</a>
+</body>
+<script src="scripts/scripts.js"></script>
+</html>

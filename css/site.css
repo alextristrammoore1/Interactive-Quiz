@@ -1,0 +1,56 @@
+body {
+    font-family:Verdana;
+    background-color:rgb(236, 238, 229);
+    width: 1080px;
+    padding: 20px;}
+h1, h2, h3 {
+    color: rgb(360,360,360);
+    width: 1080px;
+    padding:10px;
+    font-size: 25px;
+    background-color: rgb(38, 202, 153);}
+table{
+    width: 1080px;
+    border-style: solid;
+    border-color: rgb(340,340,340);}
+th, td {
+    padding: 7px 10px 10px 10px;
+    text-align: center;}
+th.left, td.left{
+    text-align: left;}
+span.error {
+    color:rgb(235, 29, 97);}
+span.tip{
+    color:royalblue;}
+img.large{
+    width: 100px;
+    height: 100px;}
+img.small{
+    width: 50px;
+    height: 50px;}
+input{
+    background-color: rgb(226, 238, 227);}
+input.textentry{
+    width:200px;
+    height:30px;}
+input.textbox{
+    width:1080px;
+    height:100px;
+    vertical-align:top;}
+input:focus, input:hover{
+    background-color: snow;}
+select.drop{
+    width:180px;
+    height:30px}
+form{
+    display: table;}
+div.correctanswer{
+    font-family:Verdana;
+    color:royalblue;
+    font-style: italic;}
+div.wronganswer{
+    font-family:Verdana;
+    color:red;
+    font-style: italic;}
+
+
